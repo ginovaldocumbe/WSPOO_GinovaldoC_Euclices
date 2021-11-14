@@ -5,6 +5,9 @@
  */
 package Crud;
 
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
 /**
  *
  * @author Smart Solution
@@ -15,7 +18,7 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       EntityManagerFactory ft = Persistence.createEntityManagerFactory("");
     }
     
 }
