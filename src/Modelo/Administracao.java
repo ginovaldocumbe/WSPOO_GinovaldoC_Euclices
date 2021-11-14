@@ -3,14 +3,17 @@ package Modelo;
 
 import java.util.ArrayList;
 import java.util.Objects;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  *
  * @author Ginovaldo Stelio Cumbe
  * 
  */
+@Entity
 public class Administracao {
-    //teste34
+    @Id
     private long id;
     private String nome;
     private ArrayList<Professores> professores;
